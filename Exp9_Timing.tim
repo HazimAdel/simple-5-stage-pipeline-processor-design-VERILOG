@@ -1,0 +1,742 @@
+Timing Diagram Editor v7.0e - Output File
+
+PROJECT
+BaseTimeUnit	1
+DisplayTimeUnit	2
+TextGridX	1.000000
+TextGridY	6
+EdgeGridX	1000.000000
+ImportStartTime	0.000000
+ImportEndTime	281474976710656.000000
+TimePerPixel	3621.958121
+Visible	DELAYS	SETUPS	HOLDS	SAMPLES	TEXT	HIDDENATTACHMENTS	CRITICALPATHS	GRIDLINES	UNCERTAINTY	
+ColWidths	112,168,224,329,924
+ScrollPos	0.000000,0.000000,0.000000
+DefDelayRule	1
+NoEventOverlap	NO
+SigLabelFontHeight	10
+LabelHeight	12
+LoadLibsToMem	1
+UseFullPathNames	1
+LibPath	
+EntireTime	YES
+PrintTimeSpecified	NO
+FromTime	0
+ToTime	0
+AllSignals	YES
+CurrSelSigs	NO
+PrintTo	0
+PrintFileName	
+PreviewInterchange	YES
+PreviewTIFF5	NO
+UseMargins	YES
+PrintTimeLine	YES
+PrintBorderBox	YES
+PrintSigNames	YES
+PrintSigNamesOnEachPage	YES
+AddPreviewToEPS	NO
+PreviewRes	150
+MarginLR	0.5
+MifImageWidth	6.00
+MarginTB	0.5
+Header	%d %t;%f;%p
+Footer	
+ScaleHorz	100
+ScaleVert	100
+ScaleHPage	1
+PrintImage	DIAGRAM
+DefaultTimingModel	minmax
+DefaultClock	Unclocked
+DefaultEdgeLevel	neg
+DefaultSet	Not Used
+DefaultClear	Not Used
+DefaultClockEnable	Not Used
+DefaultClockToOutLH	0
+DefaultClockToOutHL	0
+DefaultSetup	0
+DefaultHold	0
+DefaultRegStartupState	unknown
+DefaultActiveLowSetClear	True
+DefaultAsyncSetClear	True
+DefaultActiveLowClockEnable	True
+PROPS!
+!
+
+STYLE
+DefaultFont	USER	{-13,0,0,0,400,0,0,0,1,0,0,0,0,Arial,0}
+DrawWndFont	DEFAULT
+DrawWndColor	DEFAULT
+GridWndFont	DEFAULT
+GridWndColor	DEFAULT
+LabelWndFont	DEFAULT
+LabelWndColor	DEFAULT
+ParamDispPref	0
+ParamWndCellDisplay	0
+CustDispString	%n v=%mv,%Mv f=%mf,%Mf m=%mm,%Mm d=%md,%Md %c
+CustomDisplayStringRTF	{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}}{\colortbl\red0\green0\blue0;}\deflang1033\pard\plain\f0\fs20 %n v=%mv,%Mv f=%mf,%Mf m=%mm,%Mm d=%md,%Md %c \par}
+MarkerDispPref	4
+MarkerCustDispString	%n v=%mv,%Mv d=%md %t
+MarkerCustomDisplayStringRTF	{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}}{\colortbl\red0\green0\blue0;}\deflang1033\pard\plain\f0\fs20 %n v=%mv,%Mv d=%md %t \par}
+SignalColor	2
+LabelOffset	2
+BusDisplay	0
+WaveFormWidth	1.000000
+WaveFormColor	0
+InputWaveFormColor	16711680
+SlantedEdges	1
+SlantAngle	75
+RightJustifySigNames	1
+AutosplitEnabled	1
+AutosplitChar	_
+DynamSizedSignals	1
+!
+
+DIAGRAMTESTBENCHSETTINGS
+FilesBeforeDiagramModel
+FilesInsideDiagramModelDeclarationSection
+AbortHdlCodeEnabled	1
+DelayHdlCodeEnabled	1
+SampleHdlCodeEnabled	1
+MarkerHdlCodeEnabled	1
+VerboseSamples	0
+VerboseDelays	0
+VerboseFileInput	0
+VerboseSequenceVerification	0
+IncludeDelayTime	1
+ExecuteFromTopLevel	1
+TimeOutInDiagramLengths	0
+!
+
+MACROS
+!
+
+SIGNAL	test.clk
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+MutPort	False
+SignalActionType	2
+PROPS!
+E0	X	0	0		1	0	DR	0
+E1	1	60000	60000		1	0	DR	0
+E2	0	120000	120000		1	0	DR	0
+E3	1	180000	180000		1	0	DR	0
+E4	0	240000	240000		1	0	DR	0
+E5	1	300000	300000		1	0	DR	0
+E6	0	360000	360000		1	0	DR	0
+E7	1	420000	420000		1	0	DR	0
+E8	0	480000	480000		1	0	DR	0
+E9	1	540000	540000		1	0	DR	0
+E10	0	600000	600000		1	0	DR	0
+E11	1	660000	660000		1	0	DR	0
+E12	0	720000	720000		1	0	DR	0
+E13	1	780000	780000		1	0	DR	0
+E14	0	840000	840000		1	0	DR	0
+E15	1	900000	900000		1	0	DR	0
+E16	0	960000	960000		1	0	DR	0
+E17	1	1020000	1020000		1	0	DR	0
+E18	0	1080000	1080000		1	0	DR	0
+E19	1	1140000	1140000		1	0	DR	0
+E20	0	1200000	1200000		1	0	DR	0
+E21	1	1260000	1260000		1	0	DR	0
+E22	0	1320000	1320000		1	0	DR	0
+E23	1	1380000	1380000		1	0	DR	0
+E24	0	1440000	1440000		1	0	DR	0
+E25	1	1500000	1500000		1	0	DR	0
+E26	0	1560000	1560000		1	0	DR	0
+E27	1	1620000	1620000		1	0	DR	0
+E28	0	1680000	1680000		1	0	DR	0
+E29	1	1740000	1740000		1	0	DR	0
+E30	0	1800000	1800000		1	0	DR	0
+E31	1	1860000	1860000		1	0	DR	0
+E32	0	1920000	1920000		1	0	DR	0
+E33	1	1980000	1980000		1	0	DR	0
+E34	0	2040000	2040000		1	0	DR	0
+E35	1	2100000	2100000		1	0	DR	0
+E36	0	2160000	2160000		1	0	DR	0
+E37	1	2220000	2220000		1	0	DR	0
+E38	0	2280000	2280000		1	0	DR	0
+E39	1	2340000	2340000		1	0	DR	0
+E40	0	2400000	2400000		1	0	DR	0
+E41	1	2460000	2460000		1	0	DR	0
+E42	0	2520000	2520000		1	0	DR	0
+E43	1	2580000	2580000		1	0	DR	0
+E44	0	2640000	2640000		1	0	DR	0
+E45	1	2700000	2700000		1	0	DR	0
+E46	0	2760000	2760000		1	0	DR	0
+E47	1	2820000	2820000		1	0	DR	0
+E48	0	2880000	2880000		1	0	DR	0
+E49	1	2940000	2940000		1	0	DR	0
+E50	0	3000000	3000000		1	0	DR	0
+E51	1	3060000	3060000		1	0	DR	0
+E52	0	3120000	3120000		1	0	DR	0
+E53	1	3180000	3180000		1	0	DR	0
+E54	0	3200000	3200000		1	0	DR	0
+!
+
+SIGNAL	test.reset
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+MutPort	False
+SignalActionType	2
+PROPS!
+E0	X	0	0		1	0	DR	0
+E1	1	70000	70000		1	0	DR	0
+E2	0	3200000	3200000		1	0	DR	0
+!
+
+SIGNAL	test.enable
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+MutPort	False
+SignalActionType	2
+PROPS!
+E0	X	0	0		1	0	DR	0
+E1	1	3200000	3200000		1	0	DR	0
+!
+
+SIGNAL	test.plp.programcounter.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	2000	2000	x	1	0	DR	0
+E1	V	122000	122000	0	1	0	DR	0
+E2	V	242000	242000	4	1	0	DR	0
+E3	V	362000	362000	8	1	0	DR	0
+E4	V	482000	482000	C	1	0	DR	0
+E5	V	602000	602000	10	1	0	DR	0
+E6	V	722000	722000	14	1	0	DR	0
+E7	V	842000	842000	18	1	0	DR	0
+E8	V	962000	962000	1C	1	0	DR	0
+E9	V	1082000	1082000	20	1	0	DR	0
+E10	V	1202000	1202000	2C	1	0	DR	0
+E11	V	1322000	1322000	30	1	0	DR	0
+E12	V	1442000	1442000	34	1	0	DR	0
+E13	V	1562000	1562000	38	1	0	DR	0
+E14	V	1682000	1682000	3C	1	0	DR	0
+E15	V	1802000	1802000	40	1	0	DR	0
+E16	V	1922000	1922000	44	1	0	DR	0
+E17	V	2042000	2042000	20	1	0	DR	0
+E18	V	2162000	2162000	24	1	0	DR	0
+E19	V	2282000	2282000	28	1	0	DR	0
+E20	V	2402000	2402000	2C	1	0	DR	0
+E21	V	2522000	2522000	4C	1	0	DR	0
+E22	V	3200000	3200000	50	1	0	DR	0
+!
+
+SIGNAL	test.plp.ifid.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	63
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	2000	2000	x	1	0	DR	0
+E1	V	122000	122000	0	1	0	DR	0
+E2	V	242000	242000	48C010004	1	0	DR	0
+E3	V	362000	362000	88C02000C	1	0	DR	0
+E4	V	482000	482000	C8C030014	1	0	DR	0
+E5	V	602000	602000	108C04001C	1	0	DR	0
+E6	V	722000	722000	1400232805	1	0	DR	0
+E7	V	842000	842000	1850A603FF	1	0	DR	0
+E8	V	962000	962000	1C00824007	1	0	DR	0
+E9	V	1082000	1082000	20CC00000B	1	0	DR	0
+E10	V	1202000	1202000	0	1	0	DR	0
+E11	V	1322000	1322000	304D080002	1	0	DR	0
+E12	V	1442000	1442000	34AC050004	1	0	DR	0
+E13	V	1562000	1562000	38AC060018	1	0	DR	0
+E14	V	1682000	1682000	3CC0688004	1	0	DR	0
+E15	V	1802000	1802000	4001034807	1	0	DR	0
+E16	V	1922000	1922000	4403E00008	1	0	DR	0
+E17	V	2042000	2042000	0	1	0	DR	0
+E18	V	2162000	2162000	2400A63802	1	0	DR	0
+E19	V	2282000	2282000	28AC070008	1	0	DR	0
+E20	V	2402000	2402000	2CC4000013	1	0	DR	0
+E21	V	2522000	2522000	0	1	0	DR	0
+E22	V	2642000	2642000	50XXXXXXXX	1	0	DR	0
+E23	V	3200000	3200000	54XXXXXXXX	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r5.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	1022000	1022000	0	1	0	DR	0
+E2	V	3200000	3200000	FFFFFFFE	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r6.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	3200000	3200000	0	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r7.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	2462000	2462000	0	1	0	DR	0
+E2	V	3200000	3200000	FFFFFFFE	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r8.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	1262000	1262000	0	1	0	DR	0
+E2	V	1622000	1622000	4	1	0	DR	0
+E3	V	3200000	3200000	6	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r9.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	2102000	2102000	0	1	0	DR	0
+E2	V	3200000	3200000	1	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r10.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	3200000	3200000	0	1	0	DR	0
+!
+
+SIGNAL	test.plp.rg.r11.Q
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	31
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	62000	62000	x	1	0	DR	0
+E1	V	3200000	3200000	0	1	0	DR	0
+!
+
+SIGNAL	test.plp.fwd.ForwardA
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	1
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	3000	3000	x	1	0	DR	0
+E1	V	485000	485000	0	1	0	DR	0
+E2	V	486000	486000	1	1	0	DR	0
+E3	V	605000	605000	0	1	0	DR	0
+E4	V	606000	606000	2	1	0	DR	0
+E5	V	846000	846000	0	1	0	DR	0
+E6	V	966000	966000	1	1	0	DR	0
+E7	V	1085000	1085000	0	1	0	DR	0
+E8	V	1086000	1086000	2	1	0	DR	0
+E9	V	1565000	1565000	0	1	0	DR	0
+E10	V	1566000	1566000	2	1	0	DR	0
+E11	V	1923000	1923000	0	1	0	DR	0
+E12	V	1926000	1926000	1	1	0	DR	0
+E13	V	3200000	3200000	0	1	0	DR	0
+!
+
+SIGNAL	test.plp.fwd.ForwardB
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	1
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	V	3000	3000	x	1	0	DR	0
+E1	V	726000	726000	0	1	0	DR	0
+E2	V	846000	846000	2	1	0	DR	0
+E3	V	2286000	2286000	0	1	0	DR	0
+E4	V	2403000	2403000	1	1	0	DR	0
+E5	V	3200000	3200000	0	1	0	DR	0
+!
+
+SIGNAL	test.plp.HDU.takenbranch
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	X	7000	7000		1	0	DR	0
+E1	0	1567000	1567000		1	0	DR	0
+E2	1	1579000	1579000		1	0	DR	0
+E3	0	2527000	2527000		1	0	DR	0
+E4	X	3200000	3200000		1	0	DR	0
+!
+
+SIGNAL	test.plp.HDU.pcsrc
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	X	6000	6000		1	0	DR	0
+E1	0	966000	966000		1	0	DR	0
+E2	1	1086000	1086000		1	0	DR	0
+E3	0	1806000	1806000		1	0	DR	0
+E4	1	1926000	1926000		1	0	DR	0
+E5	0	2286000	2286000		1	0	DR	0
+E6	1	2406000	2406000		1	0	DR	0
+E7	0	2526000	2526000		1	0	DR	0
+E8	X	3200000	3200000		1	0	DR	0
+!
+
+SIGNAL	test.plp.HDU.Flush
+DIRECTION	internal
+RADIX	hex
+GRID	0	1	0	1	0	16711680	0	0
+ENDGRID	-1
+Clock	Unclocked
+EdgeLevel	neg
+Set	Not Used
+Clear	Not Used
+ClockEnable	Not Used
+ActiveLowSetClear	True
+AsyncSetClear	True
+ActiveLowClockEnable	True
+VhdlType	std_logic
+VerilogType	wire
+TemporalEquation	8ns=Z (5=1 5=0)*5 9=H 9=L 5=V 5=X
+StateEquation	Hex(Inc(0,2,5))
+HighVoltageThreshold	5
+LowVoltageThreshold	0
+MSB	0
+LSB	0
+NotEditable	True
+SignalActionType	2
+MutPort	False
+PROPS!
+E0	X	8000	8000		1	0	DR	0
+E1	0	967000	967000		1	0	DR	0
+E2	1	1087000	1087000		1	0	DR	0
+E3	0	1568000	1568000		1	0	DR	0
+E4	1	1580000	1580000		1	0	DR	0
+E5	0	1807000	1807000		1	0	DR	0
+E6	1	1927000	1927000		1	0	DR	0
+E7	0	2287000	2287000		1	0	DR	0
+E8	1	2407000	2407000		1	0	DR	0
+E9	0	2527000	2527000		1	0	DR	0
+E10	X	3200000	3200000		1	0	DR	0
+!
+
