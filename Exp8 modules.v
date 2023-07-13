@@ -1,14 +1,3 @@
-// Name:hazim
-// ID:0191894
-
-
-// No. Cycles (including reset)=_______________
-
-
-
-
-/////////////////////////////////////////
-
 module Comparator5bit (equal, a, b);
 input [4:0]a, b;
 output equal;
