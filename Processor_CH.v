@@ -1,8 +1,3 @@
-//Name:
-//ID:
-
-
-
 module Processor_CH(clk, reset, enable);
 input clk, reset, enable;
 
@@ -53,7 +48,7 @@ IFID ifid({pc4d,instrd}, {pc4f,instrf}, clk, orflush, enable);
 //***************************************************************************************
 //************************** End of First Stage (Fetch) ************************************************
 
-//ControlUnit(aluop, ……, jump, pcsrc, opcode, func); 
+//ControlUnit(aluop, â€¦â€¦, jump, pcsrc, opcode, func); 
 ControlUnit cu(aluopd, alusrcd, regdstd, memtoregd, regwrited, memreadd, memwrited, branch, jump, pcsrc, instrd[31:26], instrd[5:0]); 
 
 //ShiftLeft26_by2(out, in); 
@@ -68,7 +63,7 @@ ShiftLeft32_by2 sf32(exinstr32, exinstrd);
 //Adder32bit (out, a, b); to calculate branch target Address 
 Adder32bit adderpcbranch(baddr, pc4d, exinstr32);
 
-//RegFile(readdata1 ,readdata2, ………, clk, reset); 
+//RegFile(readdata1 ,readdata2, â€¦â€¦â€¦, clk, reset); 
 RegFile rg(readdata1d ,readdata2d, instrd[25:21], instrd[20:16], writedata, writeregw, regwritew, clk, reset); 
 
 //Comparator32bit (equal, a, b); 
@@ -106,7 +101,7 @@ EXMEM exmem({regwritem,memtoregm,memwritem,memreadm,pc4m,aluresm,Balum,writeregm
 //***************************************************************************************
 //************************** End of Third Stage (Execute) ************************************************
 
-//Data_Memory(readdata , address, ……., clk ); 
+//Data_Memory(readdata , address, â€¦â€¦., clk ); 
 Data_Memory dm(readdatam , aluresm, Balum, memwritem , memreadm , clk); 
 
 
