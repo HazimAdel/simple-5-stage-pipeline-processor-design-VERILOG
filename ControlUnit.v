@@ -1,5 +1,3 @@
-//Name:hazim 
-//ID:
 
 module ControlUnit(aluop, alusrc, regdst, memtoreg, regwrite,memread, memwrite, branch, jump, pcsrc, opcode, func); 
 input [5:0] opcode, func; 
