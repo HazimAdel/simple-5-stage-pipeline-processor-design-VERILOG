@@ -1,5 +1,3 @@
-//Name:Hazim Adel Issa
-//ID:
 
 module Data_Memory(readdata , address, writedata , memwrite , memread , clk); 
 input [31:0] address , writedata ; 
@@ -7,7 +5,7 @@ input memwrite , memread , clk;
 output [31:0] readdata; 
 reg [31:0] readdata;
 reg [31:0] DM [255:0];
-// implementation details are left to the student…… 
+// implementation details are left to the studentâ€¦â€¦ 
 integer i;
 initial begin 
   for(i=0;i<256;i=i+1)
