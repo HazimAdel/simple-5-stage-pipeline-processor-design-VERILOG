@@ -1,5 +1,3 @@
-//Name:Hazim
-//ID:0191894
 
 module ALU_1(result, sum, Cout, Cin, a, b, less, m); 
 output result, sum, Cout; 
