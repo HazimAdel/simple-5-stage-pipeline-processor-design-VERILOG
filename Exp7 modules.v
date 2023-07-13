@@ -1,5 +1,3 @@
-//Name:Hazim Adel
-//ID:0191894
 module ProgramCounter (Q,D,clk,reset,enable);
 input clk,reset,enable ;
 input  [31:0] D;
