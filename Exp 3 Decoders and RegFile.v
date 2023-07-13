@@ -1,12 +1,10 @@
-//Name:Hazim
-//ID:
 
 module Decoder2to4 (out, in, enable); 
 input enable; 
 input [1:0]in; 
 output [3:0]out; 
 wire w0,w1;
-// implementation details are left to the student…… 
+// implementation details are left to the studentâ€¦â€¦ 
 INV inv1(w0,in[0]);
 INV inv2(w1,in[1]);
 AND3 a0(out[0],enable,w0,w1);
@@ -22,7 +20,7 @@ input enable;
 input [2:0]in; 
 output [7:0]out; 
 wire w0,w1,w2;
-// implementation details are left to the student…… 
+// implementation details are left to the studentâ€¦â€¦ 
 INV inv1(w0,in[0]);
 INV inv2(w1,in[1]);
 INV inv3(w2,in[2]);
@@ -46,7 +44,7 @@ input enable;
 input [4:0]in; 
 output [31:0]out; 
 wire [3:0]w;
-// implementation details are left to the student……  
+// implementation details are left to the studentâ€¦â€¦  
 Decoder2to4 d24(w, in[4:3], enable);
 Decoder3to8 d1(out[7:0], in[2:0], w[0]); 
 Decoder3to8 d2(out[15:8], in[2:0], w[1]); 
@@ -63,7 +61,7 @@ input [31:0]writedata;
 output [31:0]readdata1, readdata2; 
 wire [31:0]w;
 wire [31:0] out0,out1,out2,out3,out4,out5,out6,out7,out8,out9,out10,out11,out12,out13,out14,out15,out16,out17,out18,out19,out20,out21,out22,out23,out24,out25,out26,out27,out28,out29,out30,out31;
-// implementation details are left to the student …… 
+// implementation details are left to the student â€¦â€¦ 
 
 Decoder5to32 d532(w, writereg, regwrite);
 
